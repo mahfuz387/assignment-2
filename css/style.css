@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body{
+	padding: 0;
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ /* Main Section*/
+.Main-section{
+
+	width: 1000px; 	
+	margin: auto;
+	background: #eee; 
+	overflow: hidden;
+	background-color: Gray;
+
+
+
+}
+a{
+
+	display: block;
+}
+
+img{
+ 	 	display: block;
+ 	 	max-width: 100%;
+ 	 }
+
+	display: block;
+}
+
+.menu{
+
+	width: 100%;
+	overflow: hidden;
+    background-color: rgba(128, 168, 255, 1);
+    border-bottom: 3px solid #002bff;
+
+}
+
+
+
+ .menu > ul{
+ 	   margin: 0;
+ 	   padding: 0;
+
+ }
+
+
+ .menu >ul>li{
+
+ 	list-style-type:none;  
+ 	float: left;
+ }
+ .menu > ul > li > a{
+ 	text-decoration: none;
+ 	color: #000;
+ 	padding:  10px 20px;  
+ 	text-transform: uppercase;	
+
+ 	transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+  }
+ .menu a:hover{
+ 	background-color: #002bff;
+    color: #fff;
+
+
+ }
+    /* content-part */
+
+ .main-content{
+ 	width: 100%;
+ 	background-color: #ddd;
+ 	overflow: hidden;
+ 	margin: 0px;
+ 	padding: 0px 
+
+ }
+ .left-content{
+ 	width: 30%;
+	max-height: 380px;
+	padding: 5px 15px;
+	overflow: hidden;
+	float: left;
+
+ 	 }
+     .left-content img{
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+}
+
+
+
+ 
+ .right-content{
+
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+ .top-right {
+	box-sizing: content-box;
+	overflow: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.top-right p{
+	display: block;
+	text-decoration: none;
+}
+
+ .bottom-right{
+ 	
+  width: 100%;
+  float: left;
+  background-color: gray;
+  padding: 17px 5px;
+  box-sizing: border-box;
+}
+
+ 	
+
+
+
+
+ .footer{
+ 	width: 100%
+ 	background-color: red;
+
+ }
+
+
+
+ 
+ 
+ 
+ .footer{
+ 	width: 100%;
+ 	background-color: #c1d2f0;
+	overflow: hidden;
+	padding: 20px;
+	margin: 0;
+
+
+ 	
+ 	
+ 	
+
+ }
+
+ .footer-left{
+ 	width: 50%;
+ 	float:left;
+
+ }
+
+ 
+ .footer-Right{
+ 	width: 50%;
+ 	float:left;
+
+ }
+ .footer-left p{
+	font-size: 10px;
+}
+.footer-left p a{
+	text-decoration: none;
+	color: #002bff;
+}
+
+.footer-Right ul{
+margin:0;
+padding: 0;
+}
+.footer-Right ul li{
+float: left;
+list-style: none;
+
+}
+.footer-Right ul li a{
+    padding: 5px;
+    font-size: 14px;
+    background: #002bff;
+    margin-left: 10px;
+    color: red;
+}
